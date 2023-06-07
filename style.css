@@ -6,10 +6,13 @@
 .container{
     text-align: center;
     margin-top: 50px;
+    padding: 50px 100px;
+    background-color: rgb(78, 3, 78);
 }
 
 h1 {
     padding: 20px 25px;
+    color: #fff;
 }
 
 #input{
@@ -18,9 +21,10 @@ h1 {
 
 .addTasks{
     padding: 10px 20px;
-    background-color: #1f1f1f;
-    color: #fff;
+    background-color: purple;
+    color: #ffffff;
     font-size: 15px;
+    cursor: pointer;
 
 }
 
@@ -28,4 +32,10 @@ h1 {
 #task {
     text-align: center;
     padding: 20px 25px;
+}
+
+
+.addTasks:hover {
+    background-color: pink;
+    color: #1f1f1f;
 }
