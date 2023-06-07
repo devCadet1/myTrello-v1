@@ -23,7 +23,7 @@ h1 {
     padding: 10px 20px;
     background-color: purple;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 10px;
     cursor: pointer;
 
 }
@@ -38,4 +38,5 @@ h1 {
 .addTasks:hover {
     background-color: pink;
     color: #1f1f1f;
+    font-size: 15px;
 }
