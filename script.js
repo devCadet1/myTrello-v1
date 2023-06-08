@@ -1,9 +1,19 @@
+const inputBox = document.getElementById('input-box')
+const listContainer = document.getElementById('list-container')
+
+
 function addTask() {
-    const task = document.getElementById('input').value; 
-    document.getElementById('task').innerHTML =`Task 1: ${task} ` ;
-    document.getElementById('').style.display = 'none'
-    
-    
+    if (inputBox.value === '') {
+        alert('You must write something')
+    } else {
+        let li = document.createElement("li")
+        li.innerHTML = inputBox.value;
+        listContainer.appendChild(li)
+        let span = document.createElement("span");
+        span.innerHTML = "\u00d7"
+        li.appendChild(span)
+    }
+    inputBox.value = '';
 }
 
 
