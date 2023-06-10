@@ -36,3 +36,9 @@ function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
+
+const todayDate = new Date();
+console.log(todayDate);
+
+
+document.querySelector('.date').innerHTML = todayDate.toDateString();
